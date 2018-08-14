@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "enter a value"
-a=$1
+read a
 echo "enter b value"
-b=$2
+read b
 if [ $a -gt $b ]
 then
 echo " $a is greater "
