@@ -1,16 +1,16 @@
 #!/bin/bash
 
 echo "enter a value"
-read a
+a=$1
 echo "enter b value"
-read b
+b=$2
 
 echo "enter your choice"
 echo "1.addition"
 echo "2.subtraction"
 echo "3.multiplication"
 echo "4.division"
-read choice
+choice=$3
 
 case $choice in
 1)sum=`expr $a + $b`
