@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "enter the number"
-read n
+n=$n
 
 rem=$(( $n % 2 ))
 if [ $rem -eq 0 ]
